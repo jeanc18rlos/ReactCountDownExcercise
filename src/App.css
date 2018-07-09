@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+.dateInput{
+  width: 15%;
+  margin-top: 2%;
+  border: none;
+  color: white;
+  background: #232322;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: center;
+  padding: 1%;
+  border-radius: 4px;
+}
+.counterDivs{
+  display: inline-block;
+  margin: 2px;
+  font-size: 1.5em;
+  padding: 1%;
+  color:white;
+  border-radius: 5px;
+}
+.submitBtn{
+  font-weight: bold;
+    margin-left: 4px;
+    border-radius: 4px;
+    font-size: 1.4em;
+    padding: 1%;
+    background: red;
+    border: none;
+    color: white;
+}
+.days{
+  background: orange;
+}
+.hours{
+  background: blue
+}
+.minutes{
+  background: green
+}
+.seconds{
+  background: red
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+body{
+  background: #312929;
+}
+.App-header {
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
